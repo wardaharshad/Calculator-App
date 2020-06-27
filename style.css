@@ -11,7 +11,7 @@
     width: 99%;
     height: 50px;
     background-color: transparent;
-    color: white;
+    color: black;
     font-size: 30px;
 }
 
@@ -23,6 +23,6 @@
     font-size: larger;
     background-color: transparent;
     border-radius: 5px;
-    box-shadow: 1px 1px 0px white;
-    color: white;
+    box-shadow: 1px 1px 0px grey;
+    color: black;
 }
