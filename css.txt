@@ -1,0 +1,23 @@
+.main{
+    border: 1px solid grey;
+    width: 400px;
+    height: 360px;
+    margin: 0 auto;
+    
+}
+
+.inputt{
+    width: 99%;
+    height: 50px;
+    background-color: grey;
+    color: white;
+    font-size: 30px;
+}
+
+.btns{
+    width: 24%;
+    margin-left: 1px;
+    margin-top: 1em;
+    height: 40px;
+    font-size: larger;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="main">
+        <input type="text" class="inputt" id="result">
+        <div class="row1">
+            <button class="btns" onclick="ac()">AC</button>
+            <button class="btns" onclick="back()">&#x2190;</button>
+            <button class="btns">+/-</button>
+            <button class="btns" onclick="result('/')">/</button>
+        </div>
+        <div class="row2">
+            <button class="btns" onclick="result('7')">7</button>
+            <button class="btns" onclick="result('8')">8</button>
+            <button class="btns" onclick="result('9')">9</button>
+            <button class="btns" onclick="result('*')">x</button>
+        </div>
+        <div class="row3">
+            <button class="btns" onclick="result('4')">4</button>
+            <button class="btns" onclick="result('5')">5</button>
+            <button class="btns" onclick="result('6')">6</button>
+            <button class="btns" onclick="result('-')">-</button>
+        </div>
+        <div class="row4">
+            <button class="btns" onclick="result('1')">1</button>
+            <button class="btns" onclick="result('2')">2</button>
+            <button class="btns" onclick="result('3')">3</button>
+            <button class="btns" onclick="result('+')">+</button>
+        </div>
+        <div class="row5">
+            <button class="btns" onclick="result('%')">%</button>
+            <button class="btns" onclick="result('0')">0</button>
+            <button class="btns" onclick="result('.')">.</button>
+            <button class="btns" onclick="equals()">=</button>
+        </div>
+    </div>
+
+</body>
+</html>
